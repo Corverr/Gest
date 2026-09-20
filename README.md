@@ -8,10 +8,10 @@
 
 ## Стек технологий
 
-Frontend: React + TypeScript
-UI-библиотека: Mantine, React Aria
-Backend: Python + FastAPI
-БД: PostgreSQL
+* Frontend: React + TypeScript
+* UI-библиотека: Mantine, React Aria
+* Backend: Python + FastAPI
+* БД: PostgreSQL
 
 ## Пользовательские сценарии
 
