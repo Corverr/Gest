@@ -1,0 +1,54 @@
+:root {
+  --bg-page: #faf9fe;
+  --bg-card: #ffffff;
+  --bg-soft: #f3f0fa;
+  --text-main: #2e2a3d;
+  --text-dim: #7a7391;
+  --border-soft: #e6e1f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #7a63b8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #584090;
+}
+
+.aria-combobox {
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.aria-combobox [role="listbox"] {
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  padding: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 16px rgba(122, 99, 184, 0.08);
+}
+
+.aria-combobox [role="option"] {
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.aria-combobox [role="option"][data-focused] {
+  background: var(--bg-soft);
+}
